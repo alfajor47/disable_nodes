@@ -1,0 +1,92 @@
+# Godot 4 specific ignores
+.godot/
+
+# Godot editor cache and import files
+.import/
+export.cfg
+export_presets.cfg
+
+# Ignore automatically generated translations
+*.translation
+# Godot 4 specific ignores
+.godot/
+
+# Godot editor cache and import files
+.import/
+export.cfg
+export_presets.cfg
+
+# Ignore automatically generated translations
+*.translation
+
+# Ignore Mono/C# related files (only if using Godot Mono)
+.mono/
+data_*/
+mono_crash.*.json
+
+# Normalize EOL for all files that Git considers text files
+* text=auto eol=lf
+
+# Ignore Godot editor metadata and cache files
+*.import
+*.godot
+*.cfg
+*.log
+*.tmp
+*.cache
+imported/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore IDE/editor configuration files
+.idea/
+.vscode/
+*.bak
+*.swp
+*.swo
+
+# Ignore backup files
+*.old
+*.orig
+
+# Ignore only the "icon" folder and its contents
+/addons/disable_nodes/icon/
+
+# Ignore Mono/C# related files (only if using Godot Mono)
+.mono/
+data_*/
+mono_crash.*.json
+# Normalize EOL for all files that Git considers text files.
+* text=auto eol=lf
+
+# Ignore Godot editor metadata and cache files
+*.import
+*.godot
+*.cfg
+*.log
+*.tmp
+*.cache
+imported/
+export_presets.cfg
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore IDE/editor configuration files
+.idea/
+.vscode/
+*.bak
+*.swp
+*.swo
+
+# Ignore backup files
+*.old
+*.orig
+
+# Ignore only the "icon" folder and its contents
+/addons/disable_nodes/icon/
